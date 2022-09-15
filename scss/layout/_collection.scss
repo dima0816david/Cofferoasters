@@ -1,0 +1,41 @@
+.our-collection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 120px 40px;
+    background-image: url("/Images/Background-img.png");
+    background-repeat: no-repeat;
+    
+}
+
+%collection-title {
+    width: 255px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    font-family: 'Fraunces', serif;  
+}
+
+%collection-text {
+    width: 255px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333D4B;
+}
+
+.expresso {
+    width: 260px;
+    text-align: center;
+    
+    &-title {
+        @extend %collection-title;
+    }
+    
+    &-text {
+        @extend %collection-text;
+    }
+}

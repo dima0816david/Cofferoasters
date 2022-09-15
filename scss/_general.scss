@@ -1,0 +1,19 @@
+*::after,*::before, *{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    all:inherit;
+    background-color: #F2F2F2;
+    font-family: 'Fraunces', serif;
+    font-family: 'Barlow', sans-serif;
+}
+
+img {
+    // min-width: 100%;
+}
