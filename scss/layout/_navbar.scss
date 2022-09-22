@@ -4,8 +4,6 @@
     align-items: center;
     height: 70px;
     &__logo {
-        // width: 235px;
-        // height: 25px;
         cursor: pointer;
     }
     
@@ -32,4 +30,44 @@
             }
         }
     }
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        &__logo {
+            cursor: pointer;
+        }
+        
+        &__ul{
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+            list-style-type: none;
+            
+            &--list {
+                text-transform: uppercase;
+                &-link {
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #83888F;
+                    &:hover {
+                        color: rgb(255, 137, 47);
+                    }
+                    &:active {
+                        color: #83888F;
+                    }
+                }
+            }
+        }
+    }
+    
+
 }

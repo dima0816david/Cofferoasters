@@ -1,6 +1,6 @@
 .selection {
     margin: 200px 0 10px;
-    margin-left: 65px;
+    margin-left: 35px;
 
     &-title {
         width: 255px;
@@ -13,7 +13,7 @@
 
     &-line {
         margin: 0;
-        width: 350px;
+        width: 360px;
         border: 1px solid #FDD6BA;
         background-color: #FDD6BA;
     }
@@ -23,6 +23,10 @@
     padding-top: 40px;
     display: flex;
     align-items: center;
+}
+
+.box_one {
+    width: 265px;
 }
 
 .box_one-number {
@@ -55,4 +59,71 @@
 .selection_boxes {
     display: flex;
     justify-content: space-around;
+    margin-right: 150px;
+    
+    
+}
+
+@media only screen and (max-width:768px){
+    .selection {
+        margin-left: 65px;
+    
+        &-title {
+            width: 255px;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            font-family: 'Fraunces', serif;
+        }
+    
+        &-line {
+            margin: 0;
+            width: 200px;
+            border: 1px solid #FDD6BA;
+            background-color: #FDD6BA;
+        }
+    }
+    
+    .line {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .box_one-number {
+        width: 90px;
+        height: 72px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        font-family: 'Fraunces', serif;
+    }
+    
+    .box_one-title {
+        width: 200px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        font-family: 'Fraunces', serif;
+    }
+    
+    .box_one-text {
+        width: 220px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    
+    .selection_boxes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .how-it_works {
+        margin-top: 550px;
+    }
 }
